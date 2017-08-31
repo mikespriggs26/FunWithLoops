@@ -149,16 +149,186 @@ namespace FunWithLoops
             //    userColor = Console.ReadLine();
 
             //}
-            string playAgain;
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Do you want to build a snowman?");
+            //    Console.WriteLine("That was fun.");
+            //    Console.WriteLine("Do you want to build another snowman?");
+            //    playAgain = Console.ReadLine();
+
+            //}
+            //while (playAgain == "Yes");
+
+            int x = 1;
+            //while (x<=10)
+            //{
+            //    Console.WriteLine(x);
+            //    x++;
+            //}
+
+            //int lives = 3;
+            //int magicNumber = 24;
+            //bool isPlaying = true;
+            //while (lives > 0 && isPlaying == true)
+            //{
+            //    Console.WriteLine("Guess my lucky number");
+            //    int userGuess = int.Parse(Console.ReadLine());
+            //    if (magicNumber == userGuess)
+            //    {
+            //        Console.WriteLine("You guessed right.");
+            //        isPlaying = false;
+            //        //break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Sorry. Try again.");
+            //        lives--;
+            //        Console.WriteLine("You have " + lives + " lives left");
+            //    }
+
+            //Print the numbers 1 to 100
+            //if the number is a multiple of 3 print fizz,
+            //if the number is a multiple of 5 print 
+            //if the number is a multiple of both print fizzbuzz
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //   if (i % 3  == 0 && i % 5 == 0)
+            //    {
+            //        Console.WriteLine("fizzbuzz");
+            //    }
+            //    else if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine("fizz");
+            //    }
+            //    else if (i % 5 ==0)
+            //    {
+            //        Console.WriteLine("buzz");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            ////create an int array with elements.  Find the mean of these elements and print the results
+
+
+            //int[] numbers = { 23, 55, 38, 96, 35, 58, 26, 84, 56, 62 };
+            //int sum = 0;
+            //foreach (int num in numbers)
+            //{
+            //     sum += num;
+
+            //}
+            //Console.WriteLine(sum/numbers.Length );
+
+            //Write a program and ask the user for two numbers(n and m). 
+            //Check to see if M is greater than N. If m is not larger than n
+            //have the users enter new numbers.  M>N
+            //Between n amd m find all the numbers that are multiple of 3 and print those numbers
+
+
+            //foreach (int num in nums)
+            //{
+            //    Console.WriteLine(num);
+            //    //if(num %3 == 0)
+            //    //{
+            //    //    Console.WriteLine(num);
+            //    //}
+            //}
+
+
+            //foreach(int num in nums)
+            //{
+            //        nums
+            //}
+
+            //Console.WriteLine(numN + " " + numM);
+            //for(int i=0; i<numbers.Length; i++)
+            //{
+            //    numbers[i] = i+1;
+            //    Console.WriteLine(numbers[i]);
+            //}
+            //*****************************************
+            //int numM = 0;
+            //int numN = 0;
+            //do
+            //{
+            //    Console.WriteLine("Please enter a number");
+            //    numM = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Please enter a second number");
+            //    numN = int.Parse(Console.ReadLine());
+            //} while (numM < numN);
+
+            //int remainder = numM - numN;
+
+            //int[] nums = new int[remainder];
+            //for (int i = numN; i < numM; i++)
+            //{
+            //    if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            //***************************************************
+            //         Nested Loops
+            //for (int i = 1; i <=2; i++)
+            //{
+            //    for (int j = 1; j <=4; j++)
+            //    {
+            //        Console.Write(j); //columns
+            //    }
+            //    Console.WriteLine();  //row
+            //}
+            //Print a triangle
+            //int n = 4;
+            //for (int row = 1; row <= n; row++)
+            //{
+            //    for (int col = 1; col <= row; col++)
+            //    {
+            //        Console.Write(col + "  ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //******************
+            //
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    for (int j = 1; j <= 5; j++)
+            //    {
+            //        Console.Write(i + "x" + j + "    ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //**************
+            int num = 1;
             do
             {
-                Console.WriteLine("Do you want to build a snowman?");
-                Console.WriteLine("That was fun.");
-                Console.WriteLine("Do you want to build another snowman?");
-                playAgain = Console.ReadLine();
+                Console.WriteLine("Please enter a number");
+                num = int.Parse(Console.ReadLine());
+            } while (num %3 ==0);
 
-            }
-            while (playAgain == "Yes");
+            Console.WriteLine("You won");
+            
+            //int num = 2;
+            //while (num % 3 == 0)
+            //{
+            //    Console.WriteLine("Please enter a number");
+            //    num = int.Parse(Console.ReadLine());
+
+
+            //}
+            //Console.WriteLine("You won");
+
+           
+
+
+
+
+
 
 
 
